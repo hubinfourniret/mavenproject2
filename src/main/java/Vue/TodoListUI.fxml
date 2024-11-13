@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox alignment="CENTER" spacing="10.0" xmlns="http://javafx.com/javafx/15" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Contrôler.TodoListController">
+   <TextField fx:id="newItemTextField" promptText="Enter a new task" />
+   <Button text="Add Task" fx:id="addButton" onAction="#handleAddTask"/>
+   <ListView fx:id="todoListView" prefHeight="200.0" prefWidth="200.0" />
+   <Button text="Delete Task" fx:id="deleteButton" onAction="#handleDeleteTask"/>
+</VBox>
