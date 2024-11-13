@@ -24,5 +24,4 @@ public class TodoItem {
     public String toString() {
         return description;
     }
-    dsfdsfkj
 }
